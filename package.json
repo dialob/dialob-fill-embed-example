@@ -1,8 +1,7 @@
 {
-  "name": "dialob-fill-custom",
+  "name": "dialob-fill-embed-example",
   "version": "1.0.0",
-  "description": "Describe dialob-fill-custom here",
-  "private": true,
+  "description": "Example usage for Dialob component",
   "scripts": {
     "build": "nwb build-react-app",
     "clean": "nwb clean-app",
@@ -12,13 +11,17 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "dialob-fill-ui": "2.0.1-45",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "nwb": "0.23.x"
   },
-  "author": "",
-  "license": "MIT",
-  "repository": ""
+  "author": "ReSys",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dialob/dialob-fill-embed-example.git"
+  }
 }
